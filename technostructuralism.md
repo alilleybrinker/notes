@@ -3,7 +3,7 @@
 
 Author's note: the following is a reproduction of a thread I'd posted
 on Twitter back in 2019. I am sharing it here because Twitter has
-increasingly locked content behind a paywall and I'd like to be able
+increasingly locked content behind a login prompt and I'd like to be able
 to refer people to this material without them having to have a Twitter/X
 account. The original thread can be found at [\[twitter\]][twitter].
 The version reproduced here is done without the thread-markers, @-references,
