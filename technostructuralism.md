@@ -52,10 +52,6 @@ This is not a small point. It's a microcosm of the fact that the technologies we
 are manifestations of our politics. It is not possible to keep politics out of tech,
 because our politics shape how we approach problems, and what we build to fix them. 
 
-This is not a small point. It's a microcosm of the fact that the technologies we build
-are manifestations of our politics. It is not possible to keep politics out of tech,
-because our politics shape how we approach problems, and what we build to fix them. 
-
 We have, as I see it, two competing cultures in tech. The dominant culture,
 technolibertarianism, and the counter-culture, which I'll call technostructuralism.
 These two cultures are often talking past each other, but they're building systems
