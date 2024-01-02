@@ -9,5 +9,8 @@ home for publication.
 
 - [\[technostructuralism.md\]][technostructuralism]: A reproduction of a
   2019 Twitter thread on Rust, C, free software, and ideology.
+- [\[string-types-in-rust.md\]][stringtypesinrust]: A reproduction of a
+  post on my now-defunct programming blog Suspect Semantics.
 
 [technostructuralism]: https://github.com/alilleybrinker/notes/blob/main/technostructuralism.md
+[stringtypesinrust]: https://github.com/alilleybrinker/notes/blob/main/string-types-in-rust.md
