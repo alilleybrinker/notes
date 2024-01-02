@@ -10,7 +10,12 @@ home for publication.
 - [\[technostructuralism.md\]][technostructuralism]: A reproduction of a
   2019 Twitter thread on Rust, C, free software, and ideology.
 - [\[string-types-in-rust.md\]][stringtypesinrust]: A reproduction of a
-  2016 post on my now-defunct programming blog Suspect Semantics.
+  2016 post on my now-defunct programming blog Suspect Semantics, about Rust's
+  string types and how they work.
+- [\[monomorphization-bloat.md\]][monomorphizationbloat]: A reproduction of
+- a 2016 post on my now-defunct programming blog Suspect Semantics, about how
+  use of generics in Rust can bloat binary sizes.
 
 [technostructuralism]: https://github.com/alilleybrinker/notes/blob/main/technostructuralism.md
 [stringtypesinrust]: https://github.com/alilleybrinker/notes/blob/main/string-types-in-rust.md
+[monomorphizationbloat]: https://github.com/alilleybrinker/notes/blob/main/monomorphization-bloat.md
