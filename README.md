@@ -13,7 +13,7 @@ home for publication.
   2016 post on my now-defunct programming blog Suspect Semantics, about Rust's
   string types and how they work.
 - [\[monomorphization-bloat.md\]][monomorphizationbloat]: A reproduction of
-- a 2016 post on my now-defunct programming blog Suspect Semantics, about how
+  a 2016 post on my now-defunct programming blog Suspect Semantics, about how
   use of generics in Rust can bloat binary sizes.
 
 [technostructuralism]: https://github.com/alilleybrinker/notes/blob/main/technostructuralism.md
