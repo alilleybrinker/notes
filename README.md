@@ -15,7 +15,11 @@ home for publication.
 - [\[monomorphization-bloat.md\]][monomorphizationbloat]: A reproduction of
   a 2016 post on my now-defunct programming blog Suspect Semantics, about how
   use of generics in Rust can bloat binary sizes.
+- [\[implementation-selection.md\]][implementationselection]: A description of
+  options in Rust for doing type-based selection of implementation path, comparing
+  and contrasting generics, generics with sealed traits, trait objects, and enums.
 
 [technostructuralism]: https://github.com/alilleybrinker/notes/blob/main/technostructuralism.md
 [stringtypesinrust]: https://github.com/alilleybrinker/notes/blob/main/string-types-in-rust.md
 [monomorphizationbloat]: https://github.com/alilleybrinker/notes/blob/main/monomorphization-bloat.md
+[implementationselection]: https://github.com/alilleybrinker/notes/blob/main/implementation-selection.md
