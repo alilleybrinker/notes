@@ -18,8 +18,10 @@ home for publication.
 - [\[implementation-selection.md\]][implementationselection]: A description of
   options in Rust for doing type-based selection of implementation path, comparing
   and contrasting generics, generics with sealed traits, trait objects, and enums.
+- [\[renegotiating-c.md\]][renegotiatingc]: Some thoughts on the transition of power away from C and C++.
 
 [technostructuralism]: https://github.com/alilleybrinker/notes/blob/main/technostructuralism.md
 [stringtypesinrust]: https://github.com/alilleybrinker/notes/blob/main/string-types-in-rust.md
 [monomorphizationbloat]: https://github.com/alilleybrinker/notes/blob/main/monomorphization-bloat.md
 [implementationselection]: https://github.com/alilleybrinker/notes/blob/main/implementation-selection.md
+[renegotiatingc]: https://github.com/alilleybrinker/notes/blob/main/renegotiating-c.md
