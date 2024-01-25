@@ -172,7 +172,7 @@ renegotiation whose outcome is uncertain. I'm excited to see where it goes.
 
 Yet as I look out across the vista, and see the shore and opportunity that
 lies out of sight beyond it, as I board a ship and begin to sail, I can
-look below me and remember, "[Some Were Made for C][2]".
+look below me and remember, "[Some Were Meant for C][3]".
 
 
 
