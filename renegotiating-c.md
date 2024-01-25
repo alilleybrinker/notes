@@ -180,7 +180,7 @@ look below me and remember, "[Some Were Meant for C][3]".
 [1]: https://nedbatchelder.com/blog/202401/you_probably_dont_need_to_learn_c.html
 [2]: https://dl.acm.org/doi/pdf/10.1145/3212477.3212479
 [3]: https://www.humprog.org/~stephen/research/papers/kell17some-preprint.pdf
-[4]: https://github.comm/alilleybrinker
+[4]: https://github.com/alilleybrinker
 [5]: https://www.youtube.com/watch?v=Wz2oFEDwiOk
 [6]: https://prev.rust-lang.org/en-US/faq.html
 [7]: https://www.youtube.com/watch?v=0PhfaFkzdBA
