@@ -46,8 +46,8 @@ positioned as an alternative, said to an audience all too certain to appreciate 
 who doesn't love being told they're doing the better thing?
 
 However, in the intervening years, some context in the broader ecosystem has changed.
-First, a number of companies, their materials dutifully collected by Alex Gaynor and
-then reported further by Consumer Reports, started to report about the prevalence of
+First, a number of companies, their materials dutifully collected by [Alex Gaynor][9]
+and then [reported further by Consumer Reports][10], started to report about the prevalence of
 memory safety vulnerabilities in their software. The numbers break down to roughly 70%
 across many large organizations. That's a big number!
 
@@ -59,9 +59,8 @@ There also started to be bigger, more noticeable cyber security events where sof
 security in particular was in question (not just security from the interconnection of systems
 and their surprising interactions, but literal "the software did an oopsie with memory"
 kinds of vulnerabilities leading to exploitation). Heartbleed, a major vulnerability in OpenSSL.
-The Solarwinds attack (an attack against the software supply chain). Log4Shell, where
-people suddenly realized how _omnipresent_ and hard to identify or update some of this
-software is.
+Log4Shell, where people suddenly realized how _omnipresent_ and hard to identify or update some
+of this software is.
 
 Not _all_ of this is memory safety related, but I think the memory safety angle seems
 appealing to policymakers because it seems both achievable, and relatively clear. If someone
@@ -72,13 +71,13 @@ probably find that pretty appealing?
 So why did memory safety suddenly feel _possible_? I think the answer, unintentionally,
 _is_ Rust.
 
-Memory safety isn't _new_. Even in the latest guidance from CISA they list a number of
+Memory safety isn't _new_. Even in the [latest guidance from CISA][11] they list a number of
 non-Rust memory safe languages, used on all sorts of widespread platforms. But crucially,
 lots of the "big," "important," real-world stuff is written in C or C++. They're what
 the grown-ups use. They weren't memory safe, and there wasn't really a _language_ which
 bundled up all the assurance guarantees you might want into a package which is easy to use.
 
-Yeah, some people would write secure C, they'd follow the MISRA guidelines or they'd run
+Yeah, some people would write secure C, they'd follow the [MISRA guidelines][12] or they'd run
 a bunch of analyzers or they'd hire some consultants to audit the code and give them the
 okay. At the end of the day, none of those things had the ease of what you get with a new
 language that plays in the same sandbox and has memory safety right out of the gate. So
@@ -87,8 +86,8 @@ outside of the megalopolis of memory safety, secure in the knowledge that no one
 _really_ do better without them.
 
 Rust coming along doesn't just challenge that security, it upends that security. I think
-this is part of why Bjarne Stroustrup and the C++ Directions Group have written things
-about security and safety that have seemed, at best, difficult to follow, and at worst
+this is part of why Bjarne Stroustrup and the C++ Directions Group have [written things
+about security and safety][13] that have seemed, at best, difficult to follow, and at worst
 filled with anxiety and defensive about the essential nature and continuing compelling
 pitch of C++. They haven't been at risk before! To reference an old film, "Oh! I'm in
 pain. I think this is what _pain_ feels like."
@@ -102,8 +101,8 @@ languages around today to get rid of, and we know that replacing old code with n
 has a tendency to introduce new vulnerabilities anyway. In the field of a settled
 graveyard, we must be careful digging things up.
 
-Instead, and you can see this borne out in the responses to the recent ONCD Request
-for Input on open source software security, many if not most of the respondents
+Instead, and you can see this borne out in [the responses to the recent ONCD Request
+for Input on open source software security][14], many if not most of the respondents
 recommend a transition of new code efforts from C and C++ into memory safe languages,
 with caution, careful prioritization, and accompanied by other assurance techniques
 when such a transition is not feasible or prudent, along with careful protection
@@ -120,7 +119,7 @@ So, to bring it back around, why am I in a knot? I have, through personal prefer
 and a happy accident of history, invested substantial personal time and energy
 into building my knowledge and establishing a degree of personal branding around
 a programming language that is now after many years _winning_. Rust is _winning_. It's
-being mentioned in Congressional hearings and recommended by federal agencies.
+[being mentioned in Congressional hearings][15] and recommended by federal agencies.
 It's used all over the globe. You can get real jobs in it now. Why am I troubled?
 
 I think we're in the middle of a grand renegotiation of _what C means_ and
@@ -185,3 +184,10 @@ look below me and remember, "[Some Were Meant for C][3]".
 [6]: https://prev.rust-lang.org/en-US/faq.html
 [7]: https://www.youtube.com/watch?v=0PhfaFkzdBA
 [8]: https://www.youtube.com/watch?v=iSmkqocn0oQ
+[9]: https://alexgaynor.net/2020/may/27/science-on-memory-unsafety-and-security/
+[10]: https://advocacy.consumerreports.org/research/report-future-of-memory-safety/
+[11]: https://www.cisa.gov/case-memory-safe-roadmaps
+[12]: https://misra.org.uk/
+[13]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2759r0.pdf
+[14]: https://www.regulations.gov/docket/ONCD-2023-0002/comments
+[15]: https://www.c-span.org/video/?c4808083/user-clip-rust-language-chosen
